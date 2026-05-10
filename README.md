@@ -23,14 +23,6 @@
 * 🌱 **Exploring:** Concepts in High-Frequency Trading (HFT), low-latency system design, and integrating Python-based predictive ML models.
 * ⚡ **Beyond the code:** I treat system optimization and algorithmic problem-solving like an intellectual sport. When I am taking a break from backend architecture, I am usually studying chess variations.
 
-### 📊 Real-Time Language Stats
-
-<div align="center">
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=sujalparab7&layout=compact&theme=github_dark&hide_border=true&bg_color=0D1117)
-
-</div>
-
 ### 🌐 The 3D Contribution Matrix
 
 <div align="center">
@@ -43,3 +35,28 @@
 <div align="center">
   📫 <b>Looking for Summer 2026 Internships in Backend / Software Engineering</b>
 </div>
+### ⚙️ System Architecture: Concurrent Processing Flow
+
+*A conceptual model of a high-throughput validation engine utilizing Golang concurrency primitives.*
+
+```mermaid
+sequenceDiagram
+    participant Client
+    participant Main as Main Thread
+    participant WaitGroup as sync.WaitGroup
+    participant Workers as Goroutine Pool
+    participant Channels as Results Channel
+
+    Client->>Main: Initiate Batch Task
+    Main->>WaitGroup: Add(N) Tasks
+    Main->>Workers: Dispatch Concurrent Workers
+    
+    loop Parallel Execution
+        Workers->>Workers: Process I/O
+        Workers-->>Channels: Send Output Status
+        Workers->>WaitGroup: Done()
+    end
+    
+    WaitGroup-->>Main: Wait() triggers completion
+    Channels-->>Main: Aggregate Streams
+    Main->>Client: Return Optimized Response
