@@ -5,12 +5,17 @@ on:
     - cron: "0 18 * * *"
   workflow_dispatch:
 
+# We added this block to give the action permission to save the images
+permissions:
+  contents: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
     name: generate-github-profile-3d-contrib
     steps:
-      - uses: actions/checkout@v3
+      # Updated to v4 to clear the warning
+      - uses: actions/checkout@v4
       - uses: yoshi389111/github-profile-3d-contrib@0.7.1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
