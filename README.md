@@ -15,12 +15,19 @@
 <div align="center">
   <img src="https://skillicons.dev/icons?i=go,cpp,c,java,python,js,html,css,react,nodejs,express,mongodb,postgres,docker,git&perline=8" />
 </div>
-### 🚀 High-Performance Projects
+### ⚡ Engineering Focus & Trajectory
 
-*   **Go AI Game Engine:** A highly optimized 9x9 Go game engine. The robust backend server is written entirely in Golang, utilizing the Alpha-Beta Pruning algorithm for intelligent, high-speed decision-making.
-*   **Concurrent URL Status Checker:** A blazing-fast URL validation tool built with Go. Replaces sequential checking with high-throughput concurrent processing using `goroutines`, channels, and `sync.WaitGroup`.
-*   **Finance Machine Learning Model:** A Python-based ML project focused on financial data processing and predictive analysis. 
-*   **Student Database REST API:** A robust backend architecture built with Express and MongoDB for seamless student data management.
+> *"Building scalable backend architecture, mastering concurrency, and exploring high-performance systems."*
+
+* 🔭 **Currently architecting:** Advanced backend systems using Golang primitives, focusing on high-throughput concurrency and cloud infrastructure.
+* 🌱 **Exploring:** Concepts in High-Frequency Trading (HFT), low-latency system design, and integrating Python-based predictive ML models.
+* ⚡ **Beyond the code:** I treat system optimization and algorithmic problem-solving like an intellectual sport. When I am taking a break from backend architecture, I am usually studying chess variations.
+
+### 📊 Real-Time Language Stats
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sujalparab7&layout=compact&theme=github_dark&hide_border=true&bg_color=0D1117" alt="Top Languages" />
+</div>
 
 ### 🌐 The 3D Contribution Matrix
 
