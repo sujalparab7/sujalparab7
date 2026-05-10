@@ -47,10 +47,10 @@
 
 <div align="center">
   <h3>📫 Let's Connect</h3>
-  <a href="mailto:YOUR_EMAIL@EXAMPLE.COM">
+  <a href="mailto:parabsujal89@gmail.com">
     <img src="https://img.shields.io/badge/Email-00ADD8?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
   </a>
-  <a href="https://linkedin.com/in/YOUR_LINKEDIN_HANDLE">
+  <a href="https://www.linkedin.com/in/sujal-parab89/">
     <img src="https://img.shields.io/badge/LinkedIn-00ADD8?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
   <p><b>Seeking Summer 2026 Internships in Backend & Software Engineering</b></p>
