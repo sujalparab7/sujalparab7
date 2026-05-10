@@ -27,10 +27,9 @@
 
 <div align="center">
 
-![3D Contribution Graph](https://github-readme-3d-contrib.vercel.app/api?user=sujalparab7E&theme=github-dark)
+![3D Contribution Graph](./profile-3d-contrib/profile-night-view.svg)
 
 </div>
-
 ---
 
 <div align="center">
