@@ -13,9 +13,8 @@
 ### 🛰️ Core Engineering Stack
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=go,cpp,python,mongodb,express,docker,git&perline=7" />
+  <img src="https://skillicons.dev/icons?i=go,cpp,c,java,python,js,html,css,react,nodejs,express,mongodb,postgres,docker,git&perline=8" />
 </div>
-
 ### 🚀 High-Performance Projects
 
 *   **Go AI Game Engine:** A highly optimized 9x9 Go game engine. The robust backend server is written entirely in Golang, utilizing the Alpha-Beta Pruning algorithm for intelligent, high-speed decision-making.
