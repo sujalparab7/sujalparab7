@@ -15,13 +15,25 @@
 <div align="center">
   <img src="https://skillicons.dev/icons?i=go,cpp,c,java,python,js,html,css,react,nodejs,express,mongodb,postgres,docker,git&perline=8" />
 </div>
-### ⚡ Engineering Focus & Trajectory
 
-> *"Building scalable backend architecture, mastering concurrency, and exploring high-performance systems."*
+### 📂 System Logs & Insights
 
-* 🔭 **Currently architecting:** Advanced backend systems using Golang primitives, focusing on high-throughput concurrency and cloud infrastructure.
-* 🌱 **Exploring:** Concepts in High-Frequency Trading (HFT), low-latency system design, and integrating Python-based predictive ML models.
-* ⚡ **Beyond the code:** I treat system optimization and algorithmic problem-solving like an intellectual sport. When I am taking a break from backend architecture, I am usually studying chess variations.
+<details>
+  <summary><b>⚡ Why Golang?</b></summary>
+  <p>I prefer building systems from the ground up. Go's native concurrency primitives (goroutines and channels) allow me to architect blazing-fast, scalable backend infrastructure without the bloat.</p>
+</details>
+
+<details>
+  <summary><b>♟️ Off-Screen Processing</b></summary>
+  <p>When I am taking a break from backend architecture, I treat algorithmic problem-solving like a sport, or I am deep into studying chess variations and game theory.</p>
+</details>
+
+<details>
+  <summary><b>🎯 Summer 2026 Objective</b></summary>
+  <p>Seeking a Summer internship where I can tackle high-performance challenges, optimize low-latency systems, and write production-grade code alongside senior engineers.</p>
+</details>
+
+<br>
 
 ### 🌐 The 3D Contribution Matrix
 
@@ -30,33 +42,16 @@
 ![3D Contribution Graph](./profile-3d-contrib/profile-night-view.svg)
 
 </div>
+
 ---
 
 <div align="center">
-  📫 <b>Looking for Summer 2026 Internships in Backend / Software Engineering</b>
+  <h3>📫 Let's Connect</h3>
+  <a href="mailto:YOUR_EMAIL@EXAMPLE.COM">
+    <img src="https://img.shields.io/badge/Email-00ADD8?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+  </a>
+  <a href="https://linkedin.com/in/YOUR_LINKEDIN_HANDLE">
+    <img src="https://img.shields.io/badge/LinkedIn-00ADD8?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+  <p><b>Seeking Summer 2026 Internships in Backend & Software Engineering</b></p>
 </div>
-### ⚙️ System Architecture: Concurrent Processing Flow
-
-*A conceptual model of a high-throughput validation engine utilizing Golang concurrency primitives.*
-
-```mermaid
-sequenceDiagram
-    participant Client
-    participant Main as Main Thread
-    participant WaitGroup as sync.WaitGroup
-    participant Workers as Goroutine Pool
-    participant Channels as Results Channel
-
-    Client->>Main: Initiate Batch Task
-    Main->>WaitGroup: Add(N) Tasks
-    Main->>Workers: Dispatch Concurrent Workers
-    
-    loop Parallel Execution
-        Workers->>Workers: Process I/O
-        Workers-->>Channels: Send Output Status
-        Workers->>WaitGroup: Done()
-    end
-    
-    WaitGroup-->>Main: Wait() triggers completion
-    Channels-->>Main: Aggregate Streams
-    Main->>Client: Return Optimized Response
