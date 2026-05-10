@@ -26,7 +26,9 @@
 ### 📊 Real-Time Language Stats
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sujalparab7&layout=compact&theme=github_dark&hide_border=true&bg_color=0D1117" alt="Top Languages" />
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=sujalparab7&layout=compact&theme=github_dark&hide_border=true&bg_color=0D1117)
+
 </div>
 
 ### 🌐 The 3D Contribution Matrix
