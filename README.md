@@ -1,16 +1,38 @@
-## Hi there 👋
+<div align="center">
 
-<!--
-**sujalparab7/sujalparab7** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+# 🌌 Sujal Parab
 
-Here are some ideas to get you started:
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=24&pause=1000&color=00ADD8&center=true&vCenter=true&width=600&lines=Computer+Engineering+%40+DJ+Sanghvi;Building+High-Performance+Systems+in+Go;Seeking+Summer+2026+Backend+Internships" alt="Typing SVG" />
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+*Engineering highly scalable backend infrastructure, concurrent systems, and AI models.*
+
+</div>
+
+---
+
+### 🛰️ Core Engineering Stack
+
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=go,cpp,python,mongodb,express,docker,git&perline=7" />
+</div>
+
+### 🚀 High-Performance Projects
+
+*   **Go AI Game Engine:** A highly optimized 9x9 Go game engine. The robust backend server is written entirely in Golang, utilizing the Alpha-Beta Pruning algorithm for intelligent, high-speed decision-making.
+*   **Concurrent URL Status Checker:** A blazing-fast URL validation tool built with Go. Replaces sequential checking with high-throughput concurrent processing using `goroutines`, channels, and `sync.WaitGroup`.
+*   **Finance Machine Learning Model:** A Python-based ML project focused on financial data processing and predictive analysis. 
+*   **Student Database REST API:** A robust backend architecture built with Express and MongoDB for seamless student data management.
+
+### 🌐 The 3D Contribution Matrix
+
+<div align="center">
+
+![3D Contribution Graph](https://github-readme-3d-contrib.vercel.app/api?user=sujalparab7E&theme=github-dark)
+
+</div>
+
+---
+
+<div align="center">
+  📫 <b>Looking for Summer 2026 Internships in Backend / Software Engineering</b>
+</div>
